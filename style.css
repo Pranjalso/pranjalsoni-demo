@@ -1,0 +1,135 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    min-height: 100%;
+    width: 100%;
+}
+#page1 {
+    min-height: 20vh;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    padding:0 2vw;
+}
+#upper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 2vw 0;
+    gap:1vw;
+    margin-top: 4px;
+}
+.nav {
+    height: 26px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav img {
+    height: 67px;
+    width: 137px;
+    margin-left: 20px;
+}
+.nav-part2 {
+    display: flex;
+    gap: 2vw;
+    margin: -2px 8px 1px 29px;
+}
+
+.search {
+    margin: 2px 2px 2px 2px ;
+    display: flex;
+    gap:1vw;
+    padding: 2px 2px 2px 2px ;
+}
+.ri-menu-3-fill {
+    font-size: 1.3vw;
+    display: none;
+}
+@media  (max-width:600px) {
+    #upper {
+        padding: 10px 7px 13px 1px;
+        margin: 6px 17px 8px 2px;
+    }
+    .nav-part2 {
+        display: none;
+    }
+    input {
+        display: none;
+
+    }
+    .ri-menu-3-fill{
+        font-size: 29px; 
+        margin: 4px 2px 2px 2px;
+        display: flex;
+        gap: 6vw;
+        padding: 5px 18px 4px 2px;
+    }
+    #search {
+        margin: 4px 2px 2px 2px;
+        display: flex;
+        gap: 6vw;
+        padding: 5px 18px 4px 2px;
+        font-size: 27px;
+    }
+    #heart {
+        display: none;
+    }  
+}
+
+@media  (max-width:1024px) {
+    #upper {
+        padding: 10px 7px 13px 1px;
+        margin: 6px 17px 8px 2px;
+    }
+    .nav-part2 {
+        display: none;
+    }
+    input {
+        display: none;
+
+    }
+    .ri-menu-3-fill{
+        font-size: 29px; 
+        margin: 4px 2px 2px 2px;
+        display: flex;
+        gap: 6vw;
+        padding: 5px 18px 4px 2px;
+    }
+    #search {
+        margin: 4px 2px 2px 2px;
+        display: flex;
+        gap: 6vw;
+        padding: 5px 18px 4px 2px;
+        font-size: 27px;
+    }
+    #heart {
+        display: none;
+    }  
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
