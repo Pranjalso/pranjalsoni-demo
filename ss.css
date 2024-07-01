@@ -24,6 +24,16 @@ html,body {
     margin-top: -10px;
     background-color:#F7F8FA ;
 }
+#check_availability{
+    display: flex;
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align:end;
+
+}
 #upper h4{
     font-size: 13px;
     font-weight: 300;
@@ -489,8 +499,6 @@ z-index:2;
     margin:0px 50px 0px 0px;
     gap: 12px;
 }
-
-
 .nin img {
     display: block;
     width: 86%;
@@ -507,12 +515,18 @@ z-index:2;
     font-size: 14px;
     font-weight: 200;
     margin: 10px 0px 5px 60px;
+    margin-left: 20%;
+    width: 100%;
+    height: auto;
 }
+
 .footer2{
+    margin-left: 15%;
     background-color: #F7F8FA;
     float: left;
     clear: none;
     width: 100%;
+    height: auto;
 }
 .foot{
     display: flex;
