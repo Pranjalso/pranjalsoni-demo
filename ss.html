@@ -67,12 +67,18 @@
 </div>
 <div class="form-box register">
     <h2>Registration</h2>
-    <form action="#">
+    <form action="#" id="register">
         <div class="input-box">
             <span class="icon"><ion-icon name="person"></ion-icon></span>
             <input type="text" required>
-            <label>Username</label>
+            <label>Name</label>
         </div>
+        <div class="input-box">
+            <span class="icon"><ion-icon name="person"></ion-icon></span>
+            <input type="text" required class="USER">
+            <label>Username</label>
+    </div>
+    <input type="button" id="check_availability" value="Check Availability" />
         <div class="input-box">
             <span class="icon"><ion-icon name="mail"></ion-icon></span>
             <input type="email" required>
@@ -322,8 +328,8 @@
                     &nbsp;for more details.
                 </h4>
             </div>
-            </div>
-     </DIV>
+          </div>
+        </div>
 </footer>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
